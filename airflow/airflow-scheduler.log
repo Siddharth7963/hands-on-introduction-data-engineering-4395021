@@ -1,0 +1,176 @@
+2024-02-04 06:16:48,876 INFO - Starting the scheduler
+2024-02-04 06:16:48,877 INFO - Processing each file at most -1 times
+2024-02-04 06:16:48,885 INFO - Launched DagFileProcessorManager with pid: 8342
+2024-02-04 06:16:48,887 INFO - Resetting orphaned tasks for active dag runs
+2024-02-04 06:16:48,902 INFO - Configured default timezone Timezone('UTC')
+2024-02-04 06:16:55,698 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.2.99
+Referer: https://automatic-fishstick-979j9xv595jjfp4xj.github.dev/
+X-Request-Id: a26d664f64ed0c6a74cc6212dafb5e49
+X-Real-Ip: 10.240.2.99
+X-Forwarded-Proto: https
+X-Forwarded-Host: automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+X-Original-Proto: https
+Proxy-Connection: Keep-Alive
+Traceparent: 00-47dfd1a31043be4770f69331f2dde6a4-fd2716e57ff4058e-00
+
+.
+2024-02-04 06:16:55,700 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-02-04 06:16:55,862 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+X-Forwarded-For: 10.240.2.99
+Referer: https://automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev/
+X-Request-Id: 3ed49d9d4297d7762d9f7fe4abd01c64
+X-Real-Ip: 10.240.2.99
+X-Forwarded-Proto: https
+X-Forwarded-Host: automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: https
+Proxy-Connection: Keep-Alive
+Traceparent: 00-bc709ea69bfb11bf5d54ffc097c2dfd9-89870f3c784c35c7-00
+
+.
+2024-02-04 06:16:55,863 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-02-04 06:21:49,546 INFO - Resetting orphaned tasks for active dag runs
+2024-02-04 06:25:11,817 INFO - Exiting gracefully upon receiving signal 15
+2024-02-04 06:25:12,822 INFO - Sending Signals.SIGTERM to group 8342. PIDs of all processes in the group: [8342]
+2024-02-04 06:25:12,823 INFO - Sending the signal Signals.SIGTERM to group 8342
+2024-02-04 06:25:13,247 INFO - Process psutil.Process(pid=8342, status='terminated', exitcode=0, started='06:16:48') (8342) terminated with exit code 0
+2024-02-04 06:25:13,250 INFO - Sending Signals.SIGTERM to group 8342. PIDs of all processes in the group: []
+2024-02-04 06:25:13,250 INFO - Sending the signal Signals.SIGTERM to group 8342
+2024-02-04 06:25:13,253 INFO - Sending the signal Signals.SIGTERM to process 8342 as process group is missing.
+2024-02-04 06:25:13,253 INFO - Exited execute loop
+2024-02-04 06:25:22,706 INFO - Starting the scheduler
+2024-02-04 06:25:22,707 INFO - Processing each file at most -1 times
+2024-02-04 06:25:22,714 INFO - Launched DagFileProcessorManager with pid: 13966
+2024-02-04 06:25:22,716 INFO - Resetting orphaned tasks for active dag runs
+2024-02-04 06:25:22,725 INFO - Configured default timezone Timezone('UTC')
+2024-02-04 06:25:42,492 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+X-Forwarded-For: 10.240.2.99
+Referer: https://automatic-fishstick-979j9xv595jjfp4xj.github.dev/
+X-Request-Id: d823472c1d8eb017a51fa4afcf12f0fe
+X-Real-Ip: 10.240.2.99
+X-Forwarded-Proto: https
+X-Forwarded-Host: automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+X-Original-Proto: https
+Proxy-Connection: Keep-Alive
+Traceparent: 00-94b74523b94db2c62995092687b60771-4d05a7a47ab1b9fc-00
+
+.
+2024-02-04 06:25:42,493 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-02-04 06:25:42,653 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+X-Forwarded-For: 10.240.2.99
+Referer: https://automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev/
+X-Request-Id: 9a32cb7c2260e4b2018adb9132fe8ead
+X-Real-Ip: 10.240.2.99
+X-Forwarded-Proto: https
+X-Forwarded-Host: automatic-fishstick-979j9xv595jjfp4xj-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: https
+Proxy-Connection: Keep-Alive
+Traceparent: 00-d4ac410c816448698ab057af93913efe-7ad1cb2af0169f63-00
+
+.
+2024-02-04 06:25:42,654 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-02-04 06:30:23,086 INFO - Resetting orphaned tasks for active dag runs
+2024-02-04 06:35:23,129 INFO - Resetting orphaned tasks for active dag runs
+2024-02-04 06:37:27,996 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-02-04T06:37:26.193290+00:00 [scheduled]>
+2024-02-04 06:37:27,997 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-02-04 06:37:27,997 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-02-04T06:37:26.193290+00:00 [scheduled]>
+2024-02-04 06:37:28,000 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-02-04T06:37:26.193290+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-02-04 06:37:28,000 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-02-04T06:37:26.193290+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-02-04 06:37:28,030 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-02-04T06:37:26.193290+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-02-04 06:37:30,305 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-02-04T06:37:26.193290+00:00', try_number=1, map_index=-1)
+2024-02-04 06:37:30,311 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-02-04T06:37:26.193290+00:00, map_index=-1, run_start_date=2024-02-04 06:37:29.680660+00:00, run_end_date=2024-02-04 06:37:29.971049+00:00, run_duration=0.290389, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-02-04 06:37:27.997944+00:00, queued_by_job_id=2, pid=21144
+2024-02-04 06:37:30,378 INFO - Marking run <DagRun one_task_dag @ 2024-02-04 06:37:26.193290+00:00: manual__2024-02-04T06:37:26.193290+00:00, state:running, queued_at: 2024-02-04 06:37:26.245497+00:00. externally triggered: True> successful
+2024-02-04 06:37:30,379 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-02-04 06:37:26.193290+00:00, run_id=manual__2024-02-04T06:37:26.193290+00:00, run_start_date=2024-02-04 06:37:27.821819+00:00, run_end_date=2024-02-04 06:37:30.379419+00:00, run_duration=2.5576, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-02-04 06:37:26.193290+00:00, data_interval_end=2024-02-04 06:37:26.193290+00:00, dag_hash=ec4f14b2870d074c3bfbe3d5e51d1f48
+2024-02-04 06:40:23,169 INFO - Resetting orphaned tasks for active dag runs
